@@ -1,0 +1,139 @@
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background:#f7f6f1;
+    color:#333;
+}
+
+.navbar{
+    background:#556b3d;
+}
+
+.hero{
+    padding:90px 0;
+}
+
+.hero h1{
+    color:#556b3d;
+    font-size:3rem;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+.hero p{
+    margin-bottom:25px;
+}
+
+.btn-custom{
+    background:#556b3d;
+    color:white;
+    padding:12px 25px;
+    border-radius:8px;
+}
+
+.btn-custom:hover{
+    background:#465833;
+    color:white;
+}
+
+.section{
+    padding:90px 0;
+}
+
+.section-title{
+    text-align:center;
+    color:#556b3d;
+    font-weight:bold;
+}
+
+.image-placeholder{
+    height:350px;
+    background:#ececec;
+    border:2px dashed #bdbdbd;
+    border-radius:12px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.feature-box{
+    background:#556b3d;
+    color:white;
+    text-align:center;
+    padding:25px;
+    border-radius:10px;
+}
+
+.bg-light-custom{
+    background:#efeee8;
+}
+
+.skin-card{
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0 4px 10px rgba(0,0,0,.08);
+}
+
+.small-image{
+    height:120px;
+    background:#ececec;
+    border-radius:10px;
+    margin-bottom:15px;
+}
+
+.banner{
+    padding:60px 0;
+}
+
+.banner-image{
+    height:400px;
+    border-radius:12px;
+    background:#d9d9d9;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.step-card{
+    background:#556b3d;
+    color:white;
+    text-align:center;
+    padding:25px;
+    border-radius:10px;
+}
+
+.product-card{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 4px 10px rgba(0,0,0,.08);
+}
+
+.tips-list{
+    max-width:700px;
+    margin:auto;
+    line-height:2;
+}
+
+footer{
+    background:#556b3d;
+    color:white;
+    text-align:center;
+    padding:50px 20px;
+}
+.logo{
+    height:60px;
+    width:auto;
+}
+.hero-img{
+    width:100%;
+    border-radius:15px;
+    object-fit:cover;
+}
